@@ -1,0 +1,36 @@
+:root {
+	--sticker-black: #171717;
+	--sticker-cream: #fff4d6;
+	--sticker-teal: #54c9bd;
+	--sticker-mustard: #e5b84f;
+	--sticker-orange: #f47b4d;
+	--sticker-coral: #ef5d58;
+	--sticker-lilac: #bba8d9;
+	--sticker-paper: #f6e9c5;
+	--sticker-shadow: 5px 5px 0 var(--sticker-black);
+	--sticker-outline: 3px solid var(--sticker-black);
+	--arcade-display: 'Arial Black', Impact, sans-serif;
+	--arcade-mono: 'Courier New', monospace;
+}
+
+html,
+body,
+#root {
+	min-height: 100%;
+	margin: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: var(--sticker-cream);
+	color: var(--sticker-black);
+	font-family: var(--arcade-mono);
+}
+
+button,
+a {
+	-webkit-tap-highlight-color: transparent;
+}
